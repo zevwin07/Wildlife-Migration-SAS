@@ -1,6 +1,6 @@
 /* Link Excel files */
-libname mydata1 xlsx "/home/u64310908/my_shared_file_links/ltaylor180/STS 2120 (Fall 2025)/STS 2120 Project Data Sets/salmon_all.xlsx";
-libname mydata2 xlsx "/home/u64310908/my_shared_file_links/ltaylor180/STS 2120 (Fall 2025)/STS 2120 Project Data Sets/salmon_migration.xlsx";
+libname mydata1 xlsx "salmon_all.xlsx";
+libname mydata2 xlsx "salmon_migration.xlsx";
 
 /* Save sheets as SAS datasets */
 data salmon_all;
